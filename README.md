@@ -1,4 +1,4 @@
-first
-hello
+first\n
+hello\n
 every
 
