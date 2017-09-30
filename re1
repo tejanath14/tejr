@@ -1,0 +1,58 @@
+    1  git init
+    2  git status
+    3  git gitdemo
+    4  cd getdemo
+    5  git add gitdemo
+    6  git branch ap1
+    7  git status
+    8  cd gitdemo
+    9  git branch ap1
+   10  git checkout ap1
+   11  ls
+   12  vi file1
+   13  git file1
+   14  git file1.txt
+   15  git checkout master
+   16  ls
+   17  git status
+   18  git add file1
+   19  git status
+   20  git commit -m " change in file1"
+   21  git status
+   22  git checkout ap1
+   23  ls
+   24  vi file1
+   25  git status
+   26  git add file1
+   27  git commit -m"modified file 1"
+   28  git checkout master
+   29  git status
+   30  git commit file1
+   31  ls
+   32  git add .
+   33  git commit -m"changes"
+   34  git merge ap1
+   35  git init
+   36  git clone https://github.com/tejanath14/tejr.git
+   37  ls -lrt
+   38  cd tejr
+   39  ls -lrt
+   40  cat README.md
+   41  vi README.md
+   42  git add README.md
+   43  git status
+   44  git push origin master
+   45  git push origin master
+   46  git add README
+   47  git add README.md
+   48  git commit
+   49  git push origin master
+   50  git add README.md
+   51  git commit -m"commiting to git hub"
+   52  git push origin master
+   53  git add README.md
+   54  git commit -m"commiting change"
+   55  git push origi master
+   56  git push origin master
+   57  history
+   58  history >> re1
